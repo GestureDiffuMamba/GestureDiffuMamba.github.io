@@ -1,0 +1,10 @@
+# 站点信息
+title: "我的论文展示"
+description: "展示论文标题、摘要、图片和视频的静态站点"
+baseurl: ""       # 若部署在用户名.github.io，留空；否则填仓库名，如 "/my-paper-site"
+url: "https://gesturediffumamba.github.io/" # 替换为你的 GitHub Pages 域名
+
+theme: minima   # 使用官方 minima 主题，也可换其他
+
+# Markdown 配置
+markdown: kramdown
