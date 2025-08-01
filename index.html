@@ -47,7 +47,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation</h1>
+          <h1 class="title is-1 publication-title">GestureDiffMamba: Co-speech Gesture Generation with Delta Mamba Enhanced
+Diffusion Model</h1>
 <!--           <div class="is-size-5 publication-authors">
             <span class="author-block">
               Yujian Liu<sup>1,2</sup>,</span>
@@ -124,14 +125,14 @@
     <div class="abstract">
       <h1 class="title is-3" style="font-size: 2.1em; font-weight: bold; margin-bottom: 20px; text-align: center;">Abstract</h1>
       <div style="text-align: justify">
-        <p>Generating talking avatars driven by audio remains a significant challenge. Existing methods typically require high computational costs and often lack sufficient facial detail and realism, making them unsuitable for applications that demand high real-time performance and visual quality. Additionally, while some methods can synchronize lip movement, they still face issues with consistency between facial expressions and upper body movement, particularly during silent periods.
-           In this paper, we introduce SyncAnimation, the first NeRF-based method that achieves audio-driven, stable, and real-time generation of speaking avatars by combining generalized audio-to-pose matching and audio-to-expression synchronization. By integrating AudioPose Syncer and AudioEmotion Syncer, SyncAnimation achieves high-precision poses and expression generation, progressively producing audio-synchronized upper body, head, and lip shapes. Furthermore, the High-Synchronization Human Renderer ensures seamless integration of the head and upper body, and achieves audio-sync lip movements.</p>
+        <p>As human-avatar interaction becomes increasingly central to virtual communication, the demand for generating expressive, synchronized, and diverse co-speech gestures is growing rapidly. Existing methods, often based on attention architectures, struggle to jointly capture semantic intent from multimodal inputs and generate fluid, temporally coherent full-body motion. To overcome these limitations, we introduce GestureDiffuMamba, a diffusion-based framework designed to unify multimodal fusion and spatiotemporal gesture modeling. GestureDiffuMamba employs a novel Multi-condition Alignment module that integrates Mamba
+          with cross-attention to align audio and textual signals in a temporally sensitive manner. To handle the distinct nature of spatial and temporal motion features, we design the STMamba block, which combines Gesture-aware Attention for body-part structural correlation and a residual-enhanced Delta Mamba for semantic temporal dynamics. This hybrid architecture ensures that generated gestures are both expressive and physically coherent. By leveraging diffusion modeling and efficient state-space dynamics, our method enables the synthesis of natural, diverse, and semantically aligned gestures in complex speech scenarios. Extensive experiments on the BEAT2 dataset demonstrate that GestureDiffuMamba outperforms state-of-the-art baselines in fidelity, diversity, and audio-motion synchronization, offering a robust solution for realistic gesture generation.</p>
       </div>
     </div>
   </div>
 </section>
   
-<section class="Audiodynamic">
+<!-- <section class="Audiodynamic">
   <div class="container is-max-desktop">
     <div class="Audiodynamic-body">
 
@@ -142,7 +143,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="Overall_Pipeline">
   <div class="container is-max-desktop">
@@ -159,7 +160,7 @@
 
 
 
-<section class="hero teaser" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; width: 70%; max-width: 1000px; margin: 0 auto;margin-bottom: 30px;">
+<!-- <section class="hero teaser" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; width: 70%; max-width: 1000px; margin: 0 auto;margin-bottom: 30px;">
   <div class="container is-max-desktop" style="padding: 0; margin: 0;">
     <div class="hero-body">
       <!-- h2 居中对齐 is-max-desktop-->
@@ -266,9 +267,9 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="hero teaser" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; width: 70%; max-width: 1000px; margin: 0 auto;margin-bottom: 30px;">
+<!-- <section class="hero teaser" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 8px; width: 70%; max-width: 1000px; margin: 0 auto;margin-bottom: 30px;">
   <div class="container is-max-desktop" style="padding: 0; margin: 0;">
     <div class="hero-body">
       <!-- h2 居中对齐 -->
@@ -298,7 +299,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 
   
